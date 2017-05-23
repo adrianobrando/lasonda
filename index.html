@@ -8,6 +8,8 @@
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="css/style.css">
+<link rel="script" href="js/bootstrap.min.js">
+<link rel="script" href="js/bootstrap.js">
   </head>
   <body>
 
@@ -27,9 +29,10 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">Band</a></li>
-            <li><a href="#contact">Gallery</a></li>
-            <li><a href="#">Contatti</a></li>
+            <li><a href="#band">Band</a></li>
+            <li><a href="#">Ascolta l'ep</a></li>
+			<li><a href="password.html">Materiale Tecnico</a></li>
+            <li><a href="#contatti">Contatti</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -48,10 +51,14 @@
   <div class="carousel-inner">
     <div class="item active foto_lasonda">
       <div class="container">
-        <div class="carousel-caption">
-          <h1>LUNA 3</h1>
-          <p><a class="btn btn-lg btn-primary" href="#">ASCOLTA L'EP!!</a></p>
-	    </div>
+	   <div class="hero">
+	           <hgroup>
+	               <h1>LUNA 3</h1>        
+	               <h3>Acquista l'EP su iTunes o ascoltalo su Spotify</h3>
+	           </hgroup>
+	           <button class="btn btn-hero btn-lg" role="button"><a href="https://itunes.apple.com/it/album/luna3-ep/id1014428759" style="color:white !important" target="_blank">iTunes</button>
+			   <button class="btn btn-hero btn-lg" role="button"><a href="https://open.spotify.com/artist/4VPPBamkfHEz0quowhHSeS?play=true&utm_source=open.spotify.com&utm_medium=open&play=true" style="color:white !important" target="_blank">Spotify</button>
+	         </div>
       </div>
     </div>
     <div class="item">
@@ -59,7 +66,7 @@
       <div class="container">
         <div class="carousel-caption">
           <h1>Changes to the Grid</h1>
-          <p>Bootstrap 3 still features a 12-column grid, but many of the CSS class names have completely changed.</p>
+          <p class="lead">Bootstrap 3 still features a 12-column grid, but many of the CSS class names have completely changed.</p>
           <p><a class="btn btn-large btn-primary" href="#">Learn more</a></p>
         </div>
       </div>
@@ -75,44 +82,49 @@
       </div>
     </div>
   <!-- Controls -->
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="icon-prev"></span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="icon-next"></span>
-  </a>  
 </div>
+<p id="band"></p>
 </div>
 
 
 <!-- FINISCE SLIDER -->
-
  <div class="container">
-<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	  <div class="class_row_lasonda">
+   <h2 style="text-align: center">BAND</h2>
+<p>La band nasce nel 2013 dedicandosi sin da subito all'attività live dividendo spesso il palco con artisti affermati (tra i quali Verdena, Bud Spencer Blues Explosion, F.A.S.K, Linea77, Daniele Celona, Tre Allegri Ragazzi Morti, Bastard Sons Of Dioniso, M.Antonietta e tanti altri) e vincendo diversi contest regionali.
+Ad Aprile 2015 esce il loro primo ep, "Luna3", edito dalla Diverge Records e registrato a Londra nei Battersea Park Studios, mentre nel giugno 2015 ottengono l'RTVPass di RockTV Italia grazie al video ufficiale del brano "Lezione di Astronomia", regia di Gianluca & Giulia Grandinetti. Il 2015 si conclude con tantissimi live, si sottolinea la partecipazione al M.E.I. e al Festival delle Generazioni con Omar Pedrini, mentre il 2016 inizia positivamente grazie al secondo posto ottenuto a "Sanremo Rock Trend Festival" svoltosi a Casa Sanremo, continuando poi con le partecipazioni al Nessun Dorma Guidonia Rock Festival e Musica da Bere.  Il 2017 inizia con una bella notizia, la redazione di Classic Rock Italia premia LaSonda  come miglior band di un contest da loro indetto nel mese di gennaio, nel frattempo la band continua a lavorare sui nuovi brani.
+<br>
+<br>
+</p>
+</div>
+<p id="contatti"></p>
 </div>
 
+ <div class="container-fluid" style="background-color: black">
+	 <div class="container">
+		 <div class="class_row_lasonda">
+			    <h2 style="text-align: center; color: white;">CONTATTI</h2>
+						   <div class="col-xs-6 col-sm-4">
+						   </div>
+						   	<div class="col-xs-6 col-sm-4">
+			<form>
+			  <div class="form-group">
+			    <input type="text" class="form-control" placeholder="Nome e Cognome">
+			  </div>
+			  <div class="form-group">
+			     <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+			  </div>
+			   <div class="form-group">
+			  <textarea class="form-control" rows="3" placeholder="Messaggio"></textarea>
+			  </div>
+			  <button type="submit" class="btn btn-default">INVIA</button>
+			  </div>
+			  </form>
+		   <div class="col-xs-6 col-sm-4">
+		   </div>
+			</div>
+		</div>
+	</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
